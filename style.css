@@ -1,0 +1,184 @@
+#box{
+  width: 500px;
+  background: #2D2C2C;
+  padding: 50px 0px;
+  margin: auto;
+  text-align: center;
+}
+
+#t{
+  position: relative;
+  top: 0px;
+  left: 20px;
+  width: 120px;
+  display: inline-block;
+
+}
+
+#a{
+  position: relative;
+  top: 5px;
+  width: 130px;
+  display: inline-block;
+
+}
+
+#l{
+  position: relative;
+  top: -7px;
+  width: 130px;
+  display: inline-block;
+  text-align:left;
+}
+
+#t1{
+  width: 85%;
+  margin: 7px auto;
+  border-radius:10px;
+  height: 6px;
+  background: #2D2727;
+  animation: t1 7s infinite alternate;
+  animation-timing-function: steps(1);
+
+}
+
+
+#t2{
+  width: 7px;
+  margin:auto;
+  border-radius:10px;
+  height: 130px;
+  background: #2D2727;
+  animation: t2 7s infinite alternate;
+  animation-timing-function: steps(1);
+
+}
+
+
+#a1{
+  width: 7px;
+  margin:auto;
+  transform: rotate(20deg);
+  margin: 0px 25px;
+  border-radius:10px;
+  height: 155px;
+  background: #2D2727;
+  display: inline-block;
+  animation: a1 7s infinite alternate;
+  animation-timing-function: steps(1);
+
+}
+
+#a2{
+  width: 7px;
+  margin: 0px 25px;
+  transform: rotate(-20deg);
+  border-radius:10px;
+  height: 155px;
+  background: #2D2727;
+  display: inline-block;
+  animation: a2 7s infinite alternate;
+  animation-timing-function: steps(1);
+
+}
+
+
+#a3{
+  position: relative;
+  top: -65px;
+  width: 45%;
+  margin: 5px auto;
+  border-radius:10px;
+  height: 7px;
+  background: #2D2727;
+  animation: a3 7s infinite alternate;
+  animation-timing-function: steps(1);
+
+}
+#l1{
+  width: 7px;
+  margin: 0px 10px;
+  border-radius:10px;
+  height: 140px;
+  background: #2D2727;
+  display: inline-block;
+  animation: l1 7s infinite alternate;
+  animation-timing-function: steps(1);
+
+}
+
+
+#l2{
+  width: 70%;
+  margin: -5px auto;
+  border-radius:10px;
+  height: 7px;
+  background: #2D2727;
+  animation: l2 7s infinite alternate;
+  animation-timing-function: steps(1);
+}
+
+@keyframes t1{
+  10%{background:#dbdbdb; box-shadow: 0px 0px 10px white;}
+  12%{background:#2D2727; box-shadow: none;}
+  14%{background:#dbdbdb; box-shadow: 0px 0px 10px white;}
+  16%{background:#2D2727; box-shadow: none;}
+  20%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  24%{background:#2D2727; box-shadow: none;}
+  30%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
+
+@keyframes t2{
+  20%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  22%{background:#2D2727; box-shadow: none;}
+  28%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  32%{background:#2D2727; box-shadow: none;}
+  40%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
+
+@keyframes a1{
+  30%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  35%{background:#2D2727; box-shadow: none;}
+  40%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  42%{background:#2D2727; box-shadow: none;}
+  43%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
+
+@keyframes a2{
+  5%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  12%{background:#2D2727; box-shadow: none;}
+  18%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  25%{background:#2D2727; box-shadow: none;}
+  30%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
+
+@keyframes a3{
+  40%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  42%{background:#2D2727; box-shadow: none;}
+  44%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  46%{background:#2D2727; box-shadow: none;}
+  48%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  50%{background:#2D2727; box-shadow: none;}
+  55%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
+
+@keyframes l1{
+  50%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  55%{background:#2D2727; box-shadow: none;}
+  60%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
+
+@keyframes l2{
+  15%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  25%{background:#2D2727; box-shadow: none;}
+  30%{background:#ededed; box-shadow: 0px 0px 10px white;}
+  35%{background:#2D2727; box-shadow: none;}
+  45%{background:white; box-shadow: 0px 0px 10px white;}
+  100%{background:white; box-shadow: none;}
+}
